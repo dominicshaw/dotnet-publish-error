@@ -2,7 +2,7 @@
 
 clone project and go to command line at the the project level (1 deeper than sln) and enter 
 ```
-dotnet publish PublishError.csproj /p:OutputPath=c:\temp_pub\ -p:PublishProfile=ClickOnceProfile
+dotnet publish PublishError.csproj -p:PublishProfile=ClickOnceProfile
 ```
 yields error 
 ```
